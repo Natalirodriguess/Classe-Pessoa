@@ -3,6 +3,7 @@ public class Pessoa {
 	 String nome;
 	 Integer idade;
 	 String nacionalidade;
+	 Double altura;
 	
 	public void mostrarNome() {
 		System.out.println("Meu nome é "+ nome);
@@ -14,7 +15,11 @@ public class Pessoa {
 	
 	public void mostrarNacionalidade () {
 		System.out.println("Minha nacionalidade é "+ nacionalidade);
-		System.out.println("===================================");
+		
 	}
 	
+	public void mostrarAltura () {
+		System.out.println("Minha altura é "+ altura);
+		System.out.println("===================================");
+	}
 }
